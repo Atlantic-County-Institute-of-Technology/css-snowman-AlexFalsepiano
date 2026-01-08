@@ -1,0 +1,215 @@
+.head{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: #ecece7;
+    border-radius: 90%;
+    display: inline-block;
+    top: 200px;
+    left: 700px;
+    z-index:10;
+    background:linear-gradient(#ecece7,#cde0e9);
+}
+.torso{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #ecece7;
+    border-radius: 90%;
+    display: inline-block;
+    top: 420px;
+    left: 730px;
+    z-index:5;
+    background: linear-gradient( #ecece7,#cde0e9 );
+}
+/*start of face*/
+.eyer{
+    position:absolute;
+    height: 8px;
+    width:  20px;
+    background-color: #686a77;
+    border-radius: 90%;
+    display: inline-block;
+    top: 385px;
+    left: 850px;
+    z-index:100;
+}
+.eyel{
+    position:absolute;
+    height: 9px;
+    width:  20px;
+    background-color: #686a77;
+    border-radius: 90%;
+    display: inline-block;
+    top: 389px;
+    left: 770px;
+    z-index:100;
+}
+.nose{
+    position: absolute;
+    width: 0px;
+    top: 400px;
+    border-left: 10px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid rgb(255, 102, 0);
+    left:810px;
+    z-index:11;
+    rotate: -3deg;
+}
+.mouth {
+    position:absolute;
+    width: 30px;
+    top: 440px;
+    border-left: 5px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 20px solid rgb(167, 0, 0);
+    left:820px;
+    z-index:20;
+}
+/*end of face*/
+
+
+/*left side of arms*/
+.arml {
+    position:absolute;
+    width: 290px;
+    top: 660px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 20px solid rgb(255, 208, 0);
+    left:600px;
+    rotate: -80deg;
+}
+.glovel{
+    position:absolute;
+    height: 80px;
+    width:  57px;
+    background-color:rgb(167, 0, 0);
+    border-radius: 45%;
+    display: inline-block;
+    top: 760px;
+    left: 700px;
+    z-index:1;
+    rotate: 10deg;
+}
+/*start of right side*/
+/*honestly looks cuter without his arms lol*/
+.armr {
+    position:absolute;
+    width: 290px;
+    top: 660px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 20px solid rgb(255, 208, 0);
+    left:790px;
+    z-index: 6;
+    rotate: -80deg;
+}
+.glover{
+    position:absolute;
+    height: 80px;
+    width:  65px;
+    background-color:rgb(167, 0, 0);
+    border-radius: 45%;
+    display: inline-block;
+    top: 780px;
+    left: 880px;
+    z-index:100;
+    rotate: 10deg;
+}
+/*his lil antennas !!!!!*/
+.antenna{
+    position:absolute;
+    width:10px;
+    top: 200px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 70px solid rgb(255, 208, 0);
+    left:775px;
+    z-index: 13;
+    rotate: -25deg;
+}
+.antball{
+    position:absolute;
+    height: 30px;
+    width:  30px;
+    background-color:rgb(221, 8, 8);
+    border-radius: 90%;
+    display: inline-block;
+    top: 180px;
+    left: 750px;
+    z-index:100;
+}
+.buttont{
+    position:absolute;
+    height: 30px;
+    width:  30px;
+    background-color:rgb(167, 0 ,0);
+    border-radius: 90%;
+    display: inline-block;
+    top: 550px;
+    left: 810px;
+    z-index:100;
+}
+.buttonm{
+    position:absolute;
+    height: 30px;
+    width:  30px;
+    background-color:rgb(167, 0 ,0);
+    border-radius: 90%;
+    display: inline-block;
+    top: 620px;
+    left: 800px;
+    z-index:100;
+}
+.buttonb{
+    position:absolute;
+    height: 30px;
+    width:  30px;
+    background-color:rgb(167, 0 ,0);
+    border-radius: 90%;
+    display: inline-block;
+    top: 690px;
+    left: 797px;
+    z-index:100;
+}
+.shadow{
+    position:absolute;
+    height: 100px;
+    width:  500px;
+    background-color:rgb(209, 204, 204);
+    border-radius: 90%;
+    display: inline-block;
+    top: 810px;
+    left: 900px;
+    background: linear-gradient(92deg,#9dd4ee,#83b9d8)
+}
+button{
+    position:absolute;
+    height:200px;
+    width:200px;
+    border:1px solid rgb(0, 140, 255);
+    border-radius: 10%;
+    background-color: rgb(108, 211, 243);
+    color: rgb(227, 242, 255);
+    font-size: 35px;
+    top: 450px;
+    left: 250px;
+    z-index: 20;
+}
+.sweat {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(151, 215, 252);
+    border-radius: 0 50% 50% 50%; 
+    rotate: 45deg;
+    left: 900px;
+    top: 300px;
+    z-index: 10;
+    background:linear-gradient
+}
+
+body {
+    background: #48c2fa81;
+}
