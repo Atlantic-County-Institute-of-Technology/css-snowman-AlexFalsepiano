@@ -1,3 +1,9 @@
+.container{
+    width: 200px;
+    height: 1803px;
+    border: 1px transparent #ffffff;
+    display: flex;
+}
 .head{
     position: absolute;
     height: 300px;
@@ -9,6 +15,7 @@
     left: 700px;
     z-index:10;
     background:linear-gradient(#ecece7,#cde0e9);
+    box-shadow: 3px 6px 10px 1px rgba(52, 157, 243, 0.2);
 }
 .torso{
     position: absolute;
@@ -21,6 +28,7 @@
     left: 730px;
     z-index:5;
     background: linear-gradient( #ecece7,#cde0e9 );
+    box-shadow: 3px 1px 10px 1px rgba(44, 142, 223, 0.2);
 }
 /*start of face*/
 .eyer{
@@ -79,6 +87,7 @@
     border-bottom: 20px solid rgb(255, 208, 0);
     left:600px;
     rotate: -80deg;
+    z-index: 1;
 }
 .glovel{
     position:absolute;
@@ -104,6 +113,7 @@
     left:790px;
     z-index: 6;
     rotate: -80deg;
+    box-shadow: .5px 7px 5px lightblue;
 }
 .glover{
     position:absolute;
@@ -116,6 +126,7 @@
     left: 880px;
     z-index:100;
     rotate: 10deg;
+    box-shadow: 10px 7px 5px rgb(156, 210, 227);
 }
 /*his lil antennas !!!!!*/
 .antenna{
@@ -150,6 +161,7 @@
     top: 550px;
     left: 810px;
     z-index:100;
+    box-shadow: .5px 7px 5px lightblue;
 }
 .buttonm{
     position:absolute;
@@ -161,6 +173,7 @@
     top: 620px;
     left: 800px;
     z-index:100;
+    box-shadow: .5px 7px 5px lightblue;
 }
 .buttonb{
     position:absolute;
@@ -172,7 +185,9 @@
     top: 690px;
     left: 797px;
     z-index:100;
+    box-shadow: .5px 7px 5px lightblue;
 }
+/*his shadow looks wrong but its bounce light ik how to rotate gradients*/
 .shadow{
     position:absolute;
     height: 100px;
@@ -182,7 +197,9 @@
     display: inline-block;
     top: 810px;
     left: 900px;
-    background: linear-gradient(92deg,#9dd4ee,#83b9d8)
+    z-index: 1;
+    background: linear-gradient(92deg,#ddf4ff,#78b9df)
+    
 }
 button{
     position:absolute;
@@ -190,11 +207,11 @@ button{
     width:200px;
     border:1px solid rgb(0, 140, 255);
     border-radius: 10%;
-    background-color: rgb(108, 211, 243);
+    background-color: rgb(40, 212, 255);
     color: rgb(227, 242, 255);
     font-size: 35px;
-    top: 450px;
-    left: 250px;
+    top: 90px;
+    left: 1100px;
     z-index: 20;
 }
 .sweat {
@@ -207,9 +224,85 @@ button{
     left: 900px;
     top: 300px;
     z-index: 10;
-    background:linear-gradient
+    background:linear-gradient(1890deg,#A2E5FA,#41BAE0)
+    
 }
-
+.tennashadow{
+    position:absolute;
+    width:10px;
+    top: 260px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 80px solid rgba(190, 223, 235, 0.663);
+    left:779px;
+    z-index: 10;
+    rotate: -165deg;
+}
+.stennashadow{
+    position:absolute;
+    width:3px;
+    top: 200px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 70px solid rgba(247, 183, 8, 0.688);
+    left:779px;
+    z-index: 13;
+    rotate: -25deg;
+}
+.ballshadow{
+    position:absolute;
+    height: 30px;
+    width:  30px;
+    background-color: rgba(192, 227, 240, 0.702);
+    border-radius: 90%;
+    display: inline-block;
+    top: 330px;
+    left: 760px;
+    z-index:100;
+}
+.sballshadow{
+    position:absolute;
+    height: 25px;
+    width:  25px;
+    background-color:rgba(184, 9, 9, 0.487);
+    border-radius: 90%;
+    display: inline-block;
+    top: 184px;
+    left: 753px;
+    z-index:100;
+}
+.noseshadowb{
+    position: absolute;
+    width: 0px;
+    top: 430px;
+    border-left: 10px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid rgba(104, 200, 232, 0.439);
+    left: 811px;
+    z-index:11;
+    rotate: -182deg;
+}
+.noseshadowr{
+    position: absolute;
+    width: 0px;
+    top: 400px;
+    border-left: 5px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 29px solid rgb(232, 90, 1);
+    left:817px;
+    z-index:11;
+    rotate: -10deg;
+}
 body {
-    background: #48c2fa81;
+    background: #7db9dbfb;
+    background: linear-gradient(180deg,rgb(96, 176, 230) 0%, rgb(115, 187, 216)0%, rgb(254, 255, 255) 100%);
+}
+.snowfloor{
+    position: relative;
+    top: 700px;
+    right: 7px;
+    height: 1109px;
+    width: 3840px;
+    border: 3px solid rgb(206, 223, 231);
+    background-color:rgb(226, 246, 255);
 }
