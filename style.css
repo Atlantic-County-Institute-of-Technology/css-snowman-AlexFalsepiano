@@ -204,7 +204,7 @@
 button{
     position:absolute;
     height:200px;
-    width:200px;
+    width:250px;
     border:1px solid rgb(0, 140, 255);
     border-radius: 10%;
     background-color: rgb(40, 212, 255);
